@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" name="Suite">
+
+<groups>
+<run>
+<include name="ProductOrder"/>
+</run>
+</groups>
+
+  <test thread-count="2" name="Standalone">
+    <classes>
+      <class name="tests.Standalone"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

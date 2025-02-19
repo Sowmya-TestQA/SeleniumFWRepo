@@ -1,0 +1,12 @@
+java -jar jenkins.war --enable-future-java  --httpPort=8080 --> to download jenkins
+.\jenkins.exe stop - to stop jenkins in terminal
+.\jenkins.exe start - to start
+
+
+------TABLE FOR PERIODICAL SCHEDULES FOR JENKINS JOB-------
+
+MINUTES (0-59)
+HOURS (0-23)
+DAYMONTH (1-31)
+MONTH (1-12)
+DAYWEEK (0-7) - 0,7 ARE SUNDAYS

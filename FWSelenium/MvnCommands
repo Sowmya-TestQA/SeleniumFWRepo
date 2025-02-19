@@ -1,0 +1,3 @@
+mvn test -PBasic --> -P profile, Basic - id in profile-- xml file
+mvn clean
+mvn test -PBasic -Dbrowser=firefox --> -D parameter
